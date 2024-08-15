@@ -17,7 +17,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: ["https://me4task4manage.netlify.app"],
+    origin: ["https://66bd949edd3dce6829866431--stirring-torrone-be28da.netlify.app/"],
     methods: ["GET", "POST", "DELETE", "PUT"],
     credentials: true,
   })
