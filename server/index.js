@@ -17,7 +17,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: ["https://me4task4manage.netlify.app","http://localhost:3000", "http://localhost:3001"],
+    origin: ["https://me4task4manage.netlify.app"],
     methods: ["GET", "POST", "DELETE", "PUT"],
     credentials: true,
   })
